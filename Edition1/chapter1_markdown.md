@@ -30,8 +30,8 @@ STREET, BOSTON.
 
 <p style="text-align: center;">
 
-DEDICATION  
-*Laborare est orare."*  
+DEDICATION<br/>
+*Laborare est orare."*<br/>
 *TO*  
 *The Clergy and the Workingmen of America.*  
 *MAY THEY WORK AND PRAY TOGETHER*  
