@@ -122,7 +122,7 @@ body {
   content: ']';
 }
 
-[data-tei-e="pb"] {
+[data-tei-e="pb"], .page {
   display: block;
   /*! border: red 2px solid; */
   text-align: center;

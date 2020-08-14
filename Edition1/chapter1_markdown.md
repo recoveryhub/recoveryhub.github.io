@@ -4,7 +4,9 @@
 
 layout: edition1_page
 ---
-  
+
+<span class="page">&#160;</span>
+
 # METZEROTT, SHOEMAKER
 
 "Omne vivum ex vivo."
@@ -17,42 +19,37 @@ layout: edition1_page
 
 “What we can. We count any belief in him the smallest better than any belief about him the greatest, or about anything else.”
 
------
+<span class="page">&#160;</span>
 
-NEW YORK<br/>
-THOMAS Y. CROWELL & CO.<br/>
-13 Astor Place<br/>
-COPYRIGHT, 1889 BY THOMAS Y. CROWELL &#38; CO.<br/>
-C. J. PETERS &#38; SON,<br/>
-TYPOGRAPHERS AND ELECTROTYPERS,<br/>
-145 HIGH<br/>
-STREET, BOSTON.<br/>
+NEW YORK  
+THOMAS Y. CROWELL & CO.  
+13 Astor Place
+COPYRIGHT, 1889 BY THOMAS Y. CROWELL &#38; CO.  
+C. J. PETERS &#38; SON,  
+TYPOGRAPHERS AND ELECTROTYPERS,  
+145 HIGH  
+STREET, BOSTON.
 
-<p style="text-align: center;">
+<span class="page">&#160;</span>
 
-DEDICATION<br/>
-*Laborare est orare."*<br/>
-*TO*<br/>
-*The Clergy and the Workingmen of America.*<br/>
-*MAY THEY WORK AND PRAY TOGETHER*<br/>
-*FOR THE COMING OF THE*<br/>
-*KINGDOM OF CHRIST.*<br/>
+DEDICATION  
+*“Laborare est orare."*  
+*TO*  
+*The Clergy and the Workingmen of America.*  
+*MAY THEY WORK AND PRAY TOGETHER*  
+*FOR THE COMING OF THE*  
+*KINGDOM OF CHRIST.*
 
-</p>
-
+<span class="page">&#160;</span>
 <span class="page">5</span>
-
-<div style="text-align: center;">
 
 ## CONTENTS
 
 ### BOOK I
 
 #### Love.
-
-</div>
  
-* [I. Karl Metzerott attends a Kaffee Klatsch](#LINK)
+* [I. Karl Metzerott attends a Kaffee Klatsch](#bk1ch1)
 * II. The Pastor’s Blue Apron
 * III. A Pessimist
 * IV. Dreams And Dreamers
@@ -67,13 +64,11 @@ DEDICATION<br/>
 * XIII. Prosit Neujahr
 * XIV. Learning and Teaching
 
-<div style="text-align: center;">
+<span class="page">6</span>
   
 ### BOOK II.
 
 #### ALTRUISM.
-
-</div>
 
 * I. After Twelve Years
 * II. Neo-Socialism
@@ -85,14 +80,10 @@ DEDICATION<br/>
 * VIII. Ritter Fritz
 * IX. “The Etymology of Grace”
 * X. Preaching and Practice
-
-<div style="text-align: center;">
   
 ### BOOK III.
 
 #### FLOOD AND FIRE.
-
-</div>
 
 * I. “O’er Crag And Torrent, till the Night is gone”
 * II. “Polly, put the Kettle On”
@@ -103,28 +94,22 @@ DEDICATION<br/>
 * VII. “These, through their Faith, received not the Promise”
 * VIII. “That, apart from us, they should not be made Perfect”
 
-<span class="page">5</span>
-
-<div style="text-align: center;">
+<span class="page">7</span>
   
 ## BOOK I.
 
 ### LOVE.
 
-</div>
-
 <span class="page">8</span>
 <span class="page">9</span>
 
-<div style="text-align: center;" id="bk1ch1">
+<div id="bk1ch1"></div>
 
 #### METZEROTT, SHOEMAKER
 
 ##### CHAPTER I.
 
 ###### KARL METZEROTT ATTENDS A KAFFEE KLATSCH.
-
-</div>
 
 KARL METZEROTT, shoemaker, counted himself reasonably well-to-do in the world. It was a favorite saying of his (though he was not greatly given to sayings at any time, his days being so full of doings), that his Socialist opinions were not based upon his own peculiar needs; and that, when the Commune[^1] should supervene, as he fervently believed it must some day, he, Karl Metzerott, would be numbered rather among its givers than its receivers.
 
@@ -134,7 +119,7 @@ The shop where he bent over his lapstone for ten hours a day, excluding meal tim
 
 The shoemaker s dwelling contained but three rooms. The front, a shingled frame building of one story, pre-<span class="page">10</span>sented its pointed gable at the street like a huge caret, denoting that all the sky and stars, perhaps something further, were wanted by those beneath. This was the shop; behind it were the kitchen, looking out upon a small square yard, opening on a not over-clean alley; and a bedroom above, whose front window peered over the gable roof, between the high blank walls of the adjoining houses, while the opposite one kept watch from the rear: and each, in its curtainless bareness, looked equally desolate and unsatisfied.
 
-It was on a cold, dreary November evening that the shoemaker put aside his work somewhat earlier than usual, and, after carefully closing his shutters, stepped through the ever-open door into his little kitchen, which was almost as red-hot as the huge cooking-stove, filled with bituminous coal, that occupied nearly half the tiny apartment. The other half was over-filled by a gigantic four-post bedstead, on which two corpulent feather-beds swelled nearly to the tester, and were overspread by a patchwork quilt, gaudy of hue and startling in design. Fringed dimity curtains hung from the tester, until their snow-white balls caught the reflection from the glowing counterpane, when they were snatched away, as if from the possible soil of contact, and fastened in the middle of each side by an immense yellow rosette. Upon one side of the stove stood an oil-cloth-covered table, which served equally for the preparation and consumption of food; above it, a steep, narrow stair wound upward to the room above; and on the other side of the kitchen, basking in heat which would have consumed a salamander, were a small old-fashioned candle-stand, half hidden by a linen cover, wrought in the old Levitical colors of red and blue,[^3] and sustaining a cheap kerosene lamp; a slat rocking-chair, with patchwork cushions, and a tiny old woman bowed over a huge German Bible, bound in     parch-<span class="page">1</span>ment, with a tarnished steel clasp and corners, and heavy smooth yellow leaves.
+It was on a cold, dreary November evening that the shoemaker put aside his work somewhat earlier than usual, and, after carefully closing his shutters, stepped through the ever-open door into his little kitchen, which was almost as red-hot as the huge cooking-stove, filled with bituminous coal, that occupied nearly half the tiny apartment. The other half was over-filled by a gigantic four-post bedstead, on which two corpulent feather-beds swelled nearly to the tester, and were overspread by a patchwork quilt, gaudy of hue and startling in design. Fringed dimity curtains hung from the tester, until their snow-white balls caught the reflection from the glowing counterpane, when they were snatched away, as if from the possible soil of contact, and fastened in the middle of each side by an immense yellow rosette. Upon one side of the stove stood an oil-cloth-covered table, which served equally for the preparation and consumption of food; above it, a steep, narrow stair wound upward to the room above; and on the other side of the kitchen, basking in heat which would have consumed a salamander, were a small old-fashioned candle-stand, half hidden by a linen cover, wrought in the old Levitical colors of red and blue,[^3] and sustaining a cheap kerosene lamp; a slat rocking-chair, with patchwork cushions, and a tiny old woman bowed over a huge German Bible, bound in     parch-<span class="page">11</span>ment, with a tarnished steel clasp and corners, and heavy smooth yellow leaves.
 
 As her son entered, Frau Metzerott lifted her brown, withered face, and fixed her dark eyes and steel-rimmed spectacles upon him.
 
@@ -225,7 +210,7 @@ In its primary aspect, the Kaffee-Visite was emphatically what is jocularly know
 
 When Karl Metzerott arrived on the occasion we have selected for description, the “Ladies’ Coffee” was over, and the little parlor was full of uproarious *Herren* [^12], the ladies having repaired to the Hall upstairs. All parties were full of true German enjoyment, heightened by the independence and freedom from sense of obligation only possible at a real “Dutch treat.” Everybody was host, everybody was guest; the *Committee* waited on the tables, and passed small jokes, with the coffee and cold tongue, and the *convives* [^13] roared with laughter as they disposed of the viands <span class="page">18</span>with a business-like rapidity, which, in part, accounted for the smallness of the profits.
 
- Strains of music had already begun to resound from the Hall, as Metzerott finished his repast.
+Strains of music had already begun to resound from the Hall, as Metzerott finished his repast.
 
 “The girls are enjoying themselves,” he said, smiling, to his neighbor, who happened to be Leppel Rolf; but an obese little man opposite called out,—
 
@@ -294,42 +279,41 @@ And Dora, though she laughed and blushed still deeper, found it most convenient 
 
 ## Notes
 
-[^1]: The Commune, figured most prominently for Marx by the Paris commune (March 18-May 28 1871), represented a 
-society liberated from capitalism and led by the proletariat. [need to add more here about the Commune as an intermediate state between capitalism and  Communism; Marx describe the time in as a “dictatorship of the proletariat”  necessary as a stepping stone from private to collective ownership of the means 
-of production.]
 
-[^2]: in the German folktale-Romance Undine, by Friedrich de la Motte Fouqué (1811), the knight 
-(Ritter is German for “knight”) Huldbrand encounters the water-sprite Undine in  the Enchanted Forest, falls in love with her, and marries her, under the  condition that she be permitted to return to her mermaid shape on Saturdays. The  novella was widely translated during the 19th century and adapted for the ballet 
-and the opera. 
+[^1]: 1: The Commune, figured most prominently for Marx by the Paris commune (March 18-May 28 1871), represented a  society liberated from capitalism and led by the proletariat. 
+ 
+    [need to add more here about the Commune as an intermediate state between capitalism and  Communism; Marx describe the time in as a “dictatorship of the proletariat”  necessary as a stepping stone from private to collective ownership of the means of production.]
 
-[^3]: Colors associated with the  tribe of Levi. 
+[^2]: 2: In the German folktale-Romance Undine, by Friedrich de la Motte Fouqué (1811), the knight (Ritter is German for “knight”) Huldbrand encounters the water-sprite Undine in  the Enchanted Forest, falls in love with her, and marries her, under the  condition that she be permitted to return to her mermaid shape on Saturdays. The  novella was widely translated during the 19th century and adapted for the ballet and the opera. 
 
-[^4]: Plattdeutsch, or Low  German, was the predominant form of German spoken in the northern regions and  the language associated with trade and commerce. High German, associated with  the southern regions, became the predominant dialect spoken by educated  Germans. 
+[^3]: 3: Colors associated with the  tribe of Levi. 
 
-[^5]: Diminutive of Karl. 
+[^4]: 4: Plattdeutsch, or Low  German, was the predominant form of German spoken in the northern regions and  the language associated with trade and commerce. High German, associated with  the southern regions, became the predominant dialect spoken by educated  Germans. 
 
-[^6]: “You heavenly dear!” (Low  German [CHECK TRANSLATION]). 
+[^5]: 5: Diminutive of Karl. 
 
-[^7]: “Ah, Lord God!” (German). 
+[^6]: 6: “You heavenly dear!” (Low  German [CHECK TRANSLATION]). 
 
-[^8]: Diminutive of Anna. 
+[^7]: 7: “Ah, Lord God!” (German). 
 
-[^9]: Little mother  (German). 
+[^8]: 8: Diminutive of Anna. 
 
-[^10]: Darling  (German). 
+[^9]: 9: Little mother  (German). 
 
-[^11]: Fundamentally, basically (French). 
+[^10]: 10: Darling  (German). 
 
-[^12]: Men (German). 
+[^11]: 11: Fundamentally, basically (French). 
 
-[^13]: Guests (French). 
+[^12]: 12: Men (German). 
 
-[^15]: Vanity of vanities (Latin). 
+[^13]: 13: Guests (French). 
 
-[^16]: Term used to denote a  belief in logic and a reason as the basis of truth; frequently indicating  secularism, atheism, or agnosticism. 
+[^14]: 14: Vanity of vanities (Latin). 
 
-[^17]: Dancing girls (German). 
+[^15]: 15: Term used to denote a  belief in logic and a reason as the basis of truth; frequently indicating  secularism, atheism, or agnosticism. 
 
-[^18]: The Wild Huntsman, also  known as Wod or Wodan, leader of the army of the underworld, was documented in  Jacob Grimm’s Deutsche Mythologie (German Mythology, 1835) and is also depicted  in Felicia Hemans’s “The Wild Huntsman” (1823).  
+[^16]: 16: Dancing girls (German). 
 
-[^19]: Isn’t that so? (German).
+[^17]: 17: The Wild Huntsman, also  known as Wod or Wodan, leader of the army of the underworld, was documented in  Jacob Grimm’s Deutsche Mythologie (German Mythology, 1835) and is also depicted  in Felicia Hemans’s “The Wild Huntsman” (1823).  
+
+[^18]: 18: Isn’t that so? (German).

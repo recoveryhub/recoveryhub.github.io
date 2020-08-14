@@ -11,4 +11,4 @@ Sample page:
 
 * Edition 1 
     * [Simple TEI to HTML](Edition1/Metzerott_ch1.html)
-    * [Markdown](Edition1/chapter1_markdown.md)
+    * [Markdown](Edition1/chapter1_markdown.html)
