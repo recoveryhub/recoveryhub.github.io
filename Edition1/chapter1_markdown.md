@@ -28,7 +28,17 @@ TYPOGRAPHERS AND ELECTROTYPERS,<br/>
 145 HIGH<br/>
 STREET, BOSTON.<br/>
 
+<p style="text-align: center;">
 
+DEDICATION<br/>
+*Laborare est orare."*<br/>
+*TO*<br/>
+*The Clergy and the Workingmen of America.*<br/>
+*MAY THEY WORK AND PRAY TOGETHER*<br/>
+*FOR THE COMING OF THE*<br/>
+*KINGDOM OF CHRIST.*<br/>
+
+</p>
 
 <span class="page">5</span>
 
