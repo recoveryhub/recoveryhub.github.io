@@ -103,11 +103,9 @@ DEDICATION
 <span class="page">8</span>
 <span class="page">9</span>
 
-<div id="bk1ch1"></div>
-
 #### METZEROTT, SHOEMAKER
 
-##### CHAPTER I.
+##### CHAPTER I. {#bk1ch1}
 
 ###### KARL METZEROTT ATTENDS A KAFFEE KLATSCH.
 
