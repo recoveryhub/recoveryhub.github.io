@@ -19,36 +19,38 @@ layout: edition1_page
 
 -----
 
-NEW YORK  
-THOMAS Y. CROWELL & CO.  
-13 Astor Place  
-COPYRIGHT, 1889 BY THOMAS Y. CROWELL &#38; CO.  
-C. J. PETERS &#38; SON,   
-TYPOGRAPHERS AND ELECTROTYPERS,  
-145 HIGH  
-STREET, BOSTON.  
+NEW YORK<br/>
+THOMAS Y. CROWELL & CO.<br/>
+13 Astor Place<br/>
+COPYRIGHT, 1889 BY THOMAS Y. CROWELL &#38; CO.<br/>
+C. J. PETERS &#38; SON,<br/>
+TYPOGRAPHERS AND ELECTROTYPERS,<br/>
+145 HIGH<br/>
+STREET, BOSTON.<br/>
 
 <p style="text-align: center;">
 
 DEDICATION<br/>
 *Laborare est orare."*<br/>
-*TO*  
-*The Clergy and the Workingmen of America.*  
-*MAY THEY WORK AND PRAY TOGETHER*  
-*FOR THE COMING OF THE*  
-*KINGDOM OF CHRIST.*  
+*TO*<br/>
+*The Clergy and the Workingmen of America.*<br/>
+*MAY THEY WORK AND PRAY TOGETHER*<br/>
+*FOR THE COMING OF THE*<br/>
+*KINGDOM OF CHRIST.*<br/>
 
 </p>
 
 <span class="page">5</span>
 
-<p style="text-align: center;">
+<div style="text-align: center;">
 
 ## CONTENTS
 
 ### BOOK I
 
 #### Love.
+
+</div>
  
 * [I. Karl Metzerott attends a Kaffee Klatsch](#LINK)
 * II. The Pastor’s Blue Apron
@@ -65,9 +67,13 @@ DEDICATION<br/>
 * XIII. Prosit Neujahr
 * XIV. Learning and Teaching
 
+<div style="text-align: center;">
+  
 ### BOOK II.
 
 #### ALTRUISM.
+
+</div>
 
 * I. After Twelve Years
 * II. Neo-Socialism
@@ -80,8 +86,13 @@ DEDICATION<br/>
 * IX. “The Etymology of Grace”
 * X. Preaching and Practice
 
+<div style="text-align: center;">
+  
 ### BOOK III.
+
 #### FLOOD AND FIRE.
+
+</div>
 
 * I. “O’er Crag And Torrent, till the Night is gone”
 * II. “Polly, put the Kettle On”
@@ -94,20 +105,26 @@ DEDICATION<br/>
 
 <span class="page">5</span>
 
+<div style="text-align: center;">
+  
 ## BOOK I.
 
 ### LOVE.
 
+</div>
+
 <span class="page">8</span>
 <span class="page">9</span>
 
-<div type="chapter" n="1" xml:id="bk1ch1">
+<div style="text-align: center;" id="bk1ch1">
 
 #### METZEROTT, SHOEMAKER
 
 ##### CHAPTER I.
 
 ###### KARL METZEROTT ATTENDS A KAFFEE KLATSCH.
+
+</div>
 
 KARL METZEROTT, shoemaker, counted himself reasonably well-to-do in the world. It was a favorite saying of his (though he was not greatly given to sayings at any time, his days being so full of doings), that his Socialist opinions were not based upon his own peculiar needs; and that, when the Commune[^1] should supervene, as he fervently believed it must some day, he, Karl Metzerott, would be numbered rather among its givers than its receivers.
 
