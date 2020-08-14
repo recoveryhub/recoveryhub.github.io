@@ -170,11 +170,11 @@ Yet Anna was not strictly a beauty, though her vivid <span class="page">13</span
 
 “Since his father and mother went to live with their son in the West,” said Anna, “I do all my own work, make my own clothes and Fritz’s, and take in sewing besides.”
 
-“What a girl you are!” sighed the old woman. “But why are you home so early from the Hall to-night?”</p>
+“What a girl you are!” sighed the old woman. “But why are you home so early from the Hall to-night?”
 
 “Leppel is gone to New York on business. There is some new machine he wants to look at. I wish he would let them all alone, and attend to his day’s work. I did not bargain to marry an inventor,” said Anna discontentedly.
 
- “It is expensive going to New York,” said the old woman, shaking her head.
+“It is expensive going to New York,” said the old woman, shaking her head.
 
 “It is expensive inventing,” said the young one, her brilliant face darkened by a shadow of real anxiety. “But, however, he must have his own way, and the money is his. <span class="page">15</span> So he was off from the Hall, when he had had his supper, and of course,” with a conscious laugh —"he would not leave me there without him.”
 
