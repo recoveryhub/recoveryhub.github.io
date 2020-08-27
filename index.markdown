@@ -7,8 +7,6 @@ layout: home
 
 Future Home of the Women Writer's Recovery Hub
 
-Sample page: 
+Editions:
 
-* Edition 1 
-    * [Simple TEI to HTML](Edition1/Metzerott_ch1.html)
-    * [Markdown](Edition1/chapter1_markdown.html)
+[*Metzerott, Shoemaker* edited by Jean Lee Cole](/metzerott-shoemaker/)
