@@ -50,14 +50,10 @@ When a document is marked up with TEI (Simple or otherwise) it will be transform
 ### Text format comparison chart
 
 | **Format** | **Extensions** | **From** | **To** | **Uses** |
-| --- | --- | --- | --- | --- |
-| Text | .txt |
- |
- | Text that does not need to be displayed to the user, i.e. it will be primarily used for text analysis or other computational methods |
-| Markdown | .md (preferred) .markdown |
- | HTML | Text that will be displayed to the user and does not need advanced formatting such as centering text or marking specific places or people |
-| HTML | .html (preferred) .htm | TEI Markdown |
- | The display format for the web, HTML will primarily be used as an output format |
+| ---        | ---            | --- | --- | --- |
+| Text       | .txt           |     |  Markdown    | Text that does not need to be displayed to the user, i.e. it will be primarily used for text analysis or other computational methods |
+| Markdown   | .md (preferred) .markdown | | HTML     | Text that will be displayed to the user and does not need advanced formatting such as centering text or marking specific places or people |
+| HTML | .html (preferred) or .htm | TEI Markdown | | The display format for the web, HTML will primarily be used as an output format |
 | TEI | .xml | Markdown | HTML | Text that will benefit from a more rich markup, such as items with embedded metadata or editions that would like to have advanced formatting for their display. |
 
 ## Edition Software
