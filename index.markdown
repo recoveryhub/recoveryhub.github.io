@@ -5,7 +5,7 @@
 layout: home
 ---
 
-Future Home of the Women Writer's Recovery Hub. zzz
+Future Home of the Women Writer's Recovery Hub.
 
 Editions:
 
