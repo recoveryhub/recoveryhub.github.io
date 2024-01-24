@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+// Set minima values and theme options in minima.scss
+
+/* see https://css-tricks.com/a-complete-guide-to-data-attributes/ for selector tips */
+
+// Fonts
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+
+$font-family-sans-serif: "Poppins", Verdana, sans-serif;
+$font-family-serif: Georgia, serif;
+
+
+// Colors
+
+$recovery-hub-black: #231F20;
+$recovery-hub-blue: #0083AD;
+$recovery-hub-indigo: #005677; // Favicon background color
+$recovery-hub-navy: #313b48;
+// darker navy: #28313d;
+$recovyer-hub-silver: #F1F5F8; 
+$recovery-hub-teal: #49C4D3;
+
+body {
+  font-family: $font-family-serif;
+}
+
+// Header 
+
+.site-header {
+  .site-title {
+    font-family: $font-family-sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+}
+
+// Footer
