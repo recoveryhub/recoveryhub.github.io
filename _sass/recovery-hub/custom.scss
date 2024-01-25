@@ -7,9 +7,9 @@
 // Fonts
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,400;1,600&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,600&display=swap');
 $font-family-sans-serif: "Poppins", Verdana, sans-serif;
-$font-family-serif: Georgia, serif;
+$font-family-serif: "Lora", Georgia, serif;
 
 
 // Colors
@@ -18,22 +18,412 @@ $recovery-hub-black: #231F20;
 $recovery-hub-blue: #0083AD;
 $recovery-hub-indigo: #005677; // Favicon background color
 $recovery-hub-navy: #313b48;
-// darker navy: #28313d;
-$recovyer-hub-silver: #F1F5F8; 
+// darker navy: #28313D;
+$recovery-hub-silver: #F1F5F8; 
+$recovery-hub-silver-dark: #BCD1D7;
 $recovery-hub-teal: #49C4D3;
+
+
+// Body
 
 body {
   font-family: $font-family-serif;
+  font-size: 17px;
+  line-height: 1.5;
 }
 
-// Header 
+.wrapper {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+p {
+  margin-bottom: 1.5rem;
+}
+
+// Lists
+
+ul {
+  margin-left: 3rem;
+
+  @include media-query($on-palm) {
+    margin-left: 2rem;
+  }
+
+  li {
+    margin-bottom: 1.5rem;
+  
+    p {
+      margin-bottom: 0;
+    }
+  }
+}
+
+// Headings
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 500;
+}
+
+h2, h3, h4, h5, h6 {
+  margin-top: $spacing-unit;
+}
+
+
+/*
+ * Site header
+ * Overwriting minima _layout.scss
+ */
 
 .site-header {
-  .site-title {
-    font-family: $font-family-sans-serif;
-    text-transform: uppercase;
-    font-weight: 600;
+  background: $recovery-hub-indigo;
+  border: none;
+  font-family: $font-family-sans-serif;
+  min-height: initial;
+  padding: 20px 0px 20px 5px;
+
+  .wrapper {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  @include media-query($on-palm) {
+    .wrapper {
+      padding-right: 0;
+    }
+  }
+
+ .site-title {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.1;
+  letter-spacing: 0.25px;
+  margin-right: $spacing-unit;
+  text-transform: uppercase;
+
+    &,
+    &:visited {
+      color: #fff;
+    }
+
+    @include media-query($on-palm) {
+      font-size: 20px;
+      margin-right: $spacing-unit * 2;
+    }
+  }
+
+  .site-nav {
+    background-color: $recovery-hub-indigo;
+    border: 0;
+    flex-grow: 1;
+    font-size: 18px;
+    line-height: initial;
+    padding-top: 1px;
+    text-align: right;
+
+    .page-link {
+      color: #fff;
+      line-height: initial;
+
+      // Gaps between nav items, but not on the last one
+      &:not(:last-child) {
+        margin-right: 25px;
+      }
+    }
+
+    @include media-query($on-palm) {
+      border-radius: 0px;
+      height: 100%;
+      padding-top: 0px;
+      right: 0;
+      text-align: center;
+      top: 0;
+      
+
+      label[for="nav-trigger"] {
+        align-items: center;
+        display: flex;
+        height: 100%;
+        padding: 0 12px;
+      }
+
+      &:hover {
+        background-color: $recovery-hub-blue;
+      }
+
+      .menu-icon {
+        display: block;
+        float: none;
+        line-height: 0;
+        padding-top: 0;
+        text-align: initial;
+
+        > svg {
+          fill: $grey-color-dark;
+        }
+      }
+
+      input ~ .trigger {
+        clear: both;
+        display: none;
+      }
+
+      input:checked ~ .trigger {
+        background-color: $recovery-hub-blue;
+        display: block;
+        text-align: center;
+        padding-bottom: 0;
+        width: 100vw;
+      }
+
+      .page-link {
+        border-top: 1px solid $recovery-hub-indigo;
+        display: block;
+        margin-left: 0;
+        padding: 20px;
+
+        &:hover {
+          background-color: $recovery-hub-indigo;
+        }
+
+        &:not(:last-child) {
+          margin-right: 0;
+        }
+      }
+    }
   }
 }
 
 // Footer
+footer {
+  color: $recovery-hub-silver;
+  background-color: $recovery-hub-navy;
+
+  .footer-col-wrapper {
+    color: $recovery-hub-silver !important;
+    display: flex;
+    font-size: $base-font-size;
+    justify-content: space-around;
+    column-gap: $spacing-unit * 2;
+    padding: $spacing-unit / 2;
+
+    @include media-query($on-palm) {
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+
+    .footer-col {
+      padding: 0;
+      width: auto;
+    }
+
+    .footer-col-1 {
+      min-width: 200px;
+    }
+
+    .footer-col-2 {
+      flex-shrink: 0;
+    }
+  }
+
+  .footer-heading {
+    font-family: $font-family-sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  a {
+    text-decoration: underline;
+    color: #fff;
+
+    &:visited {
+      color: $recovery-hub-silver-dark;
+    }
+  }
+
+  ul {
+    li {
+      margin-bottom: 0px;
+
+      &.p-name {
+        font-weight: 500;
+      }
+    }
+  }
+
+  .svg-icon {
+    fill: #fff;
+    padding-top: 4px;
+  }
+}
+
+
+// Home
+
+body#index {
+  .banner-image {
+    margin: 0px -25px 30px -25px;
+  }
+  .page-content {
+    padding: 0;
+  }
+}
+
+
+
+// TEI Styles
+
+[data-tei-a-hand-medium="black pen"] {
+  font-family: monospace;
+  background-color: cyan;
+}
+
+[data-tei-a-hand-resp="cwc"] {
+  border-bottom: double orange 3px;
+}
+
+[data-tei-a-hand-medium="blue pencil"] {
+  
+}
+
+/* * = contains */
+[data-tei-a-hand-medium*="blue"] {
+  color: blue;
+}
+
+/* ~ = discreet value */
+[data-tei-a-hand-medium~="pencil"] {
+  border-top: solid 2px #aaa;
+} 
+
+[data-tei-a-hand-medium]::before {
+  content: '[' attr(data-tei-a-hand-medium) '] ';
+}
+
+[data-tei-e="add"] {
+  background-color: yellow;
+}
+
+[data-tei-e="figure"],
+[data-tei-e="p"],
+[data-tei-e="fw"] {
+  display: block;
+}
+
+[data-tei-e="figure"] [data-tei-e="p"] {
+  font-weight: 800;
+}
+[data-tei-e="figure"] [data-tei-e="head"] {
+  font-size: 1.1em;
+}
+
+[data-tei-e="fw"] {
+  text-align: center;
+  background: #aaa;
+}
+
+[data-tei-e="unclear"] {
+  color: #aaa;
+}
+
+[data-tei-e="unclear"]::before {
+  content: '[';
+}
+
+[data-tei-e="unclear"]::after {
+  content: ']';
+}
+
+[data-tei-e="pb"], .page {
+  display: block;
+  /*! border: red 2px solid; */
+  text-align: center;
+  border-bottom: solid 2px #aaa;
+  margin: .5em 0;
+  background: silver;
+/*   display:none */
+  } 
+
+[data-tei-e="pb"]::before {
+  content: '[ page ' attr(data-tei-a-n) ' ] ';
+}
+
+/*  Notes on future alterations */
+
+[data-tei-e-damage] {} /* formatting adds [?] at end */
+
+.tei-list-container [data-tei-e="head"] {
+  font-size: 1.2em;
+  font-weight: 800;
+}
+
+[data-tei-e="lb"] {
+  display: block;
+}
+
+[data-tei-e="epigraph"],
+[data-tei-e="docImprint"] {
+  display: block;
+}
+
+[data-tei-e="front"] > [data-tei-e="docImprint"] {
+  margin-bottom: 1em;
+}
+
+[data-tei-a-rendition="simple-centre"] {
+  text-align: center;
+  display: block;
+}
+
+[data-tei-a-rendition="simple-italic"],
+[data-tei-e="pubPlace"],
+[data-tei-e="publisher"] {
+  font-style: italic;
+}
+
+[data-tei-e="docTitle"] {
+  font-size: 2.2em;
+  font-weight: 600;
+  margin-bottom: .5em;
+  display: block;
+}
+
+[data-tei-e="titlePage"] {
+  border: solid 1px #aaa;
+  display: block;
+  padding: 1em;
+  margin-bottom: .5em;
+  text-align: center;
+}
+
+/* removing styles for top level list, adding back in for nested list */
+/* TODO THESE NEED MORE SPECIFICITY. They are picking up lists on About page *?
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none; 
+}
+
+ul ul {
+  margin: 1em 0; 
+  padding-left: 2em;
+}
+
+/* this edition only? */
+
+[data-tei-e="docImprint"] {
+  display: block;
+  text-align: center;
+}
+
+[data-tei-a-rendition="simple-smallcaps"] {
+  font-variant: small-caps;
+}
+
+table, tr, td {
+  border: 1px #aaa solid;
+}
+
