@@ -2,7 +2,8 @@
 
 // Define defaults for each variable.
 
-$base-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+$base-font-family: Georgia, serif;
+// -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
 $base-font-size:   16px !default;
 $base-font-weight: 400 !default;
 $small-font-size:  $base-font-size * 0.875 !default;
@@ -21,10 +22,10 @@ $grey-color-dark:  darken($grey-color, 25%) !default;
 $table-text-align: left !default;
 
 // Width of the content area
-$content-width:    800px !default;
+$content-width:    1200px !default;
 
-$on-palm:          600px !default;
-$on-laptop:        800px !default;
+$on-palm:          780px !default;
+$on-laptop:        1200px !default;
 
 // Use media queries like this:
 // @include media-query($on-palm) {
@@ -47,166 +48,11 @@ $on-laptop:        800px !default;
 @import
   "minima/base",
   "minima/layout",
-  "minima/syntax-highlighting"
+  "minima/syntax-highlighting",
+  // Import custom CSS
+  "recovery-hub/custom"
 ;
 
 
 
 /* see https://css-tricks.com/a-complete-guide-to-data-attributes/ for selector tips */
-
-body {
-  font-size: 1.1em;
-  font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
-  margin-bottom: 50em;
-}
-
-[data-tei-a-hand-medium="black pen"] {
-  font-family: monospace;
-  background-color: cyan;
-}
-
-[data-tei-a-hand-resp="cwc"] {
-  border-bottom: double orange 3px;
-}
-
-[data-tei-a-hand-medium="blue pencil"] {
-  
-}
-
-/* * = contains */
-[data-tei-a-hand-medium*="blue"] {
-  color: blue;
-}
-
-/* ~ = discreet value */
-[data-tei-a-hand-medium~="pencil"] {
-  border-top: solid 2px #aaa;
-} 
-
-[data-tei-a-hand-medium]::before {
-  content: '[' attr(data-tei-a-hand-medium) '] ';
-}
-
-
-[data-tei-e="add"] {
-  background-color: yellow;
-}
-
-[data-tei-e="figure"],
-[data-tei-e="p"],
-[data-tei-e="fw"] {
-  display: block;
-}
-
-[data-tei-e="figure"] [data-tei-e="p"] {
-  font-weight: 800;
-}
-[data-tei-e="figure"] [data-tei-e="head"] {
-  font-size: 1.1em;
-}
-
-[data-tei-e="fw"] {
-  text-align: center;
-  background: #aaa;
-}
-
-[data-tei-e="unclear"] {
-  color: #aaa;
-}
-
-[data-tei-e="unclear"]::before {
-  content: '[';
-}
-
-[data-tei-e="unclear"]::after {
-  content: ']';
-}
-
-[data-tei-e="pb"], .page {
-  display: block;
-  /*! border: red 2px solid; */
-  text-align: center;
-  border-bottom: solid 2px #aaa;
-  margin: .5em 0;
-  background: silver;
-/*   display:none */
-  } 
-
-[data-tei-e="pb"]::before {
-  content: '[ page ' attr(data-tei-a-n) ' ] ';
-}
-
-/*  Notes on future alterations */
-
-[data-tei-e-damage] {} /* formatting adds [?] at end */
-
-.tei-list-container [data-tei-e="head"] {
-  font-size: 1.2em;
-  font-weight: 800;
-}
-
-[data-tei-e="lb"] {
-  display: block;
-}
-
-[data-tei-e="epigraph"],
-[data-tei-e="docImprint"] {
-  display: block;
-}
-
-[data-tei-e="front"] > [data-tei-e="docImprint"] {
-  margin-bottom: 1em;
-}
-
-[data-tei-a-rendition="simple-centre"] {
-  text-align: center;
-  display: block;
-}
-
-[data-tei-a-rendition="simple-italic"],
-[data-tei-e="pubPlace"],
-[data-tei-e="publisher"] {
-  font-style: italic;
-}
-
-[data-tei-e="docTitle"] {
-  font-size: 2.2em;
-  font-weight: 600;
-  margin-bottom: .5em;
-  display: block;
-}
-
-[data-tei-e="titlePage"] {
-  border: solid 1px #aaa;
-  display: block;
-  padding: 1em;
-  margin-bottom: .5em;
-  text-align: center;
-}
-
-/* removing styles for top level list, adding back in for nested list */
-ul, li {
-  margin: 0;
-  padding: 0;
-  list-style-type: none; 
-}
-
-ul ul {
-  margin: 1em 0; 
-  padding-left: 2em;
-}
-
-/* this edition only? */
-
-[data-tei-e="docImprint"] {
-  display: block;
-  text-align: center;
-}
-
-[data-tei-a-rendition="simple-smallcaps"] {
-  font-variant: small-caps;
-}
-
-table, tr, td {
-  border: 1px #aaa solid;
-}
