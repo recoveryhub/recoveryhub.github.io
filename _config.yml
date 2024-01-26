@@ -22,7 +22,7 @@ title: Recovery Hub for American Woman Writers
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   The hub will operate as a network of scholars grounded in diverse feminist methods that will actively support the recovery of women writers and foster collaboration, mentorship, and community-building among women working in the digital humanities. 
-# baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 facebook_username: AWWrecoveryhub
 twitter_username: AWWRecoveryHub
