@@ -3,30 +3,56 @@
 
   <div class="wrapper">
 
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
+    <h2 class="footer-heading">{{ site.title }}</h2>
+    {%- if site.sponsors -%}
+      <div class="sponsor-col-wrapper">
+        {%- for sponsor in site.sponsors -%}
+          <div class="sponsor-col sponsor-col-{{ forloop.index }}">
+            {%- if sponsor.logo_path -%}
+            <figure class="sponsor-logo">
+              <a href="{{ sponsor.link }}">
+                <img src="{{ sponsor.logo_path | relative_url }}" alt="{{ sponsor.name }} logo" />
+              </a>
+            </figure>
+            {%- else -%}
+            {{ sponsor.name }}
+            {%- endif -%}
+          </div>
+        {%- endfor -%}
+      </div>
+    {%- endif -%}
 
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
           <li class="p-name">
             {%- if site.author -%}
-              {{ site.author | escape }}
+              {{ site.author }}
             {%- else -%}
-              {{ site.title | escape }}
+              {{ site.title }}
             {%- endif -%}
+          </li>
+            
+          {%- if site.institution -%}
+            <li class="institution">
+              {{ site.institution }}
             </li>
-            {%- if site.email -%}
+          {%- endif -%}
+
+          {%- if site.email -%}
             <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {%- endif -%}
+          {%- endif -%}
+
+          {%- include social.html -%}
+          
+          {%- if site.privacy_notice -%}
+            <li class="privacy-notice"><a href="{{ site.privacy_notice }}">Web Privacy Notice</a></li>
+          {%- endif -%}
         </ul>
       </div>
 
       <div class="footer-col footer-col-2">
-        {%- include social.html -%}
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{- site.description | escape -}}</p>
+        <p>{{- site.description -}}</p>
       </div>
     </div>
 
