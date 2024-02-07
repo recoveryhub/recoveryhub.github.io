@@ -25,8 +25,14 @@ description: >- # this means to ignore newlines until "baseurl:"
 
 ### Site Structure
 
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://erinchambers.github.io/recovery_hub_test" # the base hostname & protocol for your site, e.g. http://example.com
+
+
+### Banner image
+
+banner_image: assets/images/recovery-hub-banner.jpg
+banner_alt_text: Recovery Hub of American Women Writers with quill icon and pages of a book in the background
 
 ### Contact
 
@@ -39,7 +45,6 @@ facebook_username: AWWrecoveryhub
 twitter_username: AWWRecoveryHub
 instagram_username: awwrecoveryhub
 github_username:  recoveryhub
-
 
 ### Sponsors / Organization Logos
 # Can be overridden in _includes/footer.html instead
