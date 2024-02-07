@@ -25,8 +25,8 @@ description: >- # this means to ignore newlines until "baseurl:"
 
 ### Site Structure
 
-baseurl: "/recovery_hub_test" # the subpath of your site, e.g. /blog
-url: "https://erinchambers.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://erinchambers.github.io/recovery_hub_test" # the base hostname & protocol for your site, e.g. http://example.com
 
 ### Contact
 
