@@ -77,7 +77,19 @@ ul {
   }
 }
 
+// TOC list - different margins
+
+#markdown-toc {
+  margin-top: $spacing-unit;
+  margin-bottom: $spacing-unit;
+
+  li {
+    margin-bottom: initial;
+  }
+}
+
 // Headings
+
 h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
 }
@@ -98,23 +110,6 @@ h1.post-title {
   padding-bottom: $spacing-unit / 1.75;
   border-bottom: 1px solid lightgray;
 }
-
-
-/*
-// Blue underscore
-h1.post-title {
-  margin-bottom: $spacing-unit * 1.25;
-  &:after {
-    content: "";
-    background-color: $recovery-hub-blue;
-    display: block;
-    height: 4px;
-    position: relative;
-    top: $spacing-unit / 2;
-    width: $spacing-unit * 2;
-  }
-}
-*/
 
 /*
  * Site header
