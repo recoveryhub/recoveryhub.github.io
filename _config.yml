@@ -18,18 +18,66 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Recovery Hub for American Woman Writers
-email: your-email@example.com
+title: Recovery Hub for American Women Writers
+tagline: 
 description: >- # this means to ignore newlines until "baseurl:"
   The hub will operate as a network of scholars grounded in diverse feminist methods that will actively support the recovery of women writers and foster collaboration, mentorship, and community-building among women working in the digital humanities. 
-# baseurl: "/" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+### Site Structure
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://erinchambers.github.io/recovery_hub_test" # the base hostname & protocol for your site, e.g. http://example.com
+
+
+### Banner image
+
+banner_image: assets/images/recovery-hub-banner.jpg
+banner_alt_text: Recovery Hub of American Women Writers with quill icon and pages of a book in the background
+
+### Contact
+
+email: recoveryhub@siue.edu
+privacy_notice: https://www.siue.edu/web-privacy-notice/
+
+### Social Accounts
+
 facebook_username: AWWrecoveryhub
 twitter_username: AWWRecoveryHub
 instagram_username: awwrecoveryhub
 github_username:  recoveryhub
 
-# Build settings
+### Sponsors / Organization Logos
+# Can be overridden in _includes/footer.html instead
+
+sponsors:
+  # copy-paste the following 4 lines for each sponsor
+  - sponsor:
+    name: Southern Illinois University Edwardsville
+    link: https://www.siue.edu/
+    logo_path: assets/images/siue.png
+
+  - sponsor:
+    name: St. Catherine University
+    link: https://www.stkate.edu/
+    logo_path: assets/images/stkate.png
+
+  - sponsor: 
+    name: National Endowment for the Humanities
+    link: https://www.neh.gov/
+    logo_path: assets/images/neh.webp
+
+  - sponsor:
+    name: The IRIS Center at SIUE
+    link: https://iris.siue.edu/
+    logo_path: assets/images/iris.png
+    
+  - sponsor: 
+    name: University of Nebraska–Lincoln
+    link: https://www.unl.edu/
+    logo_path: assets/images/unl.png
+
+### Site Setup / Defaults
+
 theme: minima
 plugins:
   - jekyll-feed

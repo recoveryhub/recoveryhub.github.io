@@ -1,13 +1,13 @@
 ---
 layout: page
+title: Text-Based Projects
+permalink: /docs
 ---
-
-# Text based projects
 
 * TOC
 {:toc}
 
-This documentation is for text based digital editions. We can define what we mean by that a little more fully, but it mostly means that the project concerns itself with collecting, annotating, presenting, or analyzing textual documents (rather than, say, spreadsheets or databases).
+This documentation is for text-based digital editions. We can define what we mean by that a little more fully, but it mostly means that the project concerns itself with collecting, annotating, presenting, or analyzing textual documents (rather than, say, spreadsheets or databases).
 
 Data projects will likely be handled on a one by one basis with documentation created as we go.
 

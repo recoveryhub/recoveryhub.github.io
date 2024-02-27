@@ -1,4 +1,10 @@
-@charset "utf-8";
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minima";
+
+// @charset "utf-8";
 
 // Set minima values and theme options in minima.scss
 
@@ -32,6 +38,18 @@ body {
   line-height: 1.5;
 }
 
+.sr-only
+{
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
 .wrapper {
   padding-left: 25px;
   padding-right: 25px;
@@ -59,7 +77,19 @@ ul {
   }
 }
 
+// TOC list - different margins
+
+#markdown-toc {
+  margin-top: $spacing-unit;
+  margin-bottom: $spacing-unit;
+
+  li {
+    margin-bottom: initial;
+  }
+}
+
 // Headings
+
 h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
 }
@@ -68,6 +98,18 @@ h2, h3, h4, h5, h6 {
   margin-top: $spacing-unit;
 }
 
+// Page titles 
+
+// Gray border
+.post-header {
+  margin-bottom: 0;
+}
+
+h1.post-title {
+  margin-bottom: 0;
+  padding-bottom: $spacing-unit / 1.75;
+  border-bottom: 1px solid lightgray;
+}
 
 /*
  * Site header
@@ -195,18 +237,57 @@ h2, h3, h4, h5, h6 {
   }
 }
 
+
 // Footer
 footer {
-  color: $recovery-hub-silver;
   background-color: $recovery-hub-navy;
+  color: $recovery-hub-silver;
 
-  .footer-col-wrapper {
+  h2, h3, h4, h5, h6 {
+    color: $recovery-hub-silver;
+  }
+
+  // Sponsor columns
+  .sponsor-col-wrapper {
+    align-items: center;
+    column-gap: $spacing-unit;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: $spacing-unit;
+
+
+    .sponsor-logo img {
+      height: 75px;
+      max-width: none; // Undo minima default
+    }
+
+    @include media-query($on-palm) {
+      align-items: start;
+      column-gap: $spacing-unit * 2;
+      flex-wrap: wrap;
+      justify-content: start;
+      margin-bottom: $spacing-unit / 2;
+      margin-top: $spacing-unit / 2;
+
+      .sponsor-logo img {
+        height: 50px;
+      }
+    }
+
+  }
+
+  // Text columns
+
+  .footer-col-wrapper { // Change footer columns to use flexbox
     color: $recovery-hub-silver !important;
+    column-gap: $spacing-unit;
     display: flex;
     font-size: $base-font-size;
-    justify-content: space-around;
-    column-gap: $spacing-unit * 2;
+    justify-content: space-between;
+    margin-top: $spacing-unit;
     padding: $spacing-unit / 2;
+    row-gap: $spacing-unit / 2;
 
     @include media-query($on-palm) {
       flex-direction: column;
@@ -214,6 +295,8 @@ footer {
     }
 
     .footer-col {
+      float: none;
+      margin-bottom: 0;
       padding: 0;
       width: auto;
     }
@@ -221,13 +304,10 @@ footer {
     .footer-col-1 {
       min-width: 200px;
     }
-
-    .footer-col-2 {
-      flex-shrink: 0;
-    }
   }
 
   .footer-heading {
+    color: #fff;
     font-family: $font-family-sans-serif;
     font-weight: 600;
     letter-spacing: 1px;
@@ -246,17 +326,25 @@ footer {
 
   ul {
     li {
-      margin-bottom: 0px;
+      margin-bottom: 3px;
 
       &.p-name {
+        border-bottom: 1px solid #fff;
         font-weight: 500;
+        margin-bottom: 4px;
+        padding-bottom: 8px;
       }
+    }
+    &.contact-list {
+      margin-bottom: 0.25rem;
     }
   }
 
   .svg-icon {
     fill: #fff;
+    height: 20px;
     padding-top: 4px;
+    width: 22px;
   }
 }
 
@@ -268,7 +356,7 @@ body#index {
     margin: 0px -25px 30px -25px;
   }
   .page-content {
-    padding: 0;
+    padding-top: 0;
   }
 }
 
