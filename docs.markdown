@@ -89,6 +89,7 @@ This is my second paragraph.
 ```
 
 **[Bold text and Italicized text]**
+
 Both asterisks (`*`) and underscores (`_`) can be used to make words or phrases bold and/or italicized. To italicize text, wrap it in single underscores (`_this_` makes _this_) or single asterisks (`*this*` makes *this*). To bold text, wrap it in _double_ underscores or _double_ asterisks (`**this**` makes **this**, and `__this__` makes __this__).
 
 **We recommend choosing one for bold, and the other for italics.** We find that this makes it easier to visually differentiate between them when editing or proofreading Markdown file. The author of this documentation always uses the underscore for italics (like `_this_`) and double asterisks for bold text (like `**this**`).
@@ -96,9 +97,11 @@ Both asterisks (`*`) and underscores (`_`) can be used to make words or phrases 
 [Headings](https://www.markdownguide.org/basic-syntax/#headings). 
 
 **[Line breaks](https://www.markdownguide.org/basic-syntax/#line-breaks)**
+
 Use paragraphs when you can. There will be cases—particularly with poetry—where you are, in fact, transcribing line breaks rather than paragraphs, and don't want the space that comes between paragraphs. 
 
 **[Tables](https://www.markdownguide.org/extended-syntax/#tables)**
+
 Tables are not the easiest to create and edit in Markdown. If you need to add a table, it's often easier to copy and paste an example table rather than create one from scratch.
 
 
