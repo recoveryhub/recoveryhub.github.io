@@ -4,7 +4,8 @@ title: Text-Based Projects
 permalink: /docs
 ---
 
-* TOC
+**This page is a work in progress**
+
 {:toc}
 
 This documentation is for text-based digital editions. We can define what we mean by that a little more fully, but it mostly means that the project concerns itself with collecting, annotating, presenting, or analyzing textual documents (rather than, say, spreadsheets or databases).
@@ -56,25 +57,109 @@ When a document is marked up with TEI (Simple or otherwise) it will be transform
 | HTML | .html (preferred) or .htm | TEI Markdown | | The display format for the web, HTML will primarily be used as an output format |
 | TEI | .xml | Markdown | HTML | Text that will benefit from a more rich markup, such as items with embedded metadata or editions that would like to have advanced formatting for their display. |
 
-## Edition Software
+# Intro to Markdown
+Some basic terminology: 
+
+Characters
+: In computing terms, a character is any letter, number, space, punctuation mark, or symbol. A is a character; 9 is a character; ? is a character. "Character" became a familiar term for many denizens of social media thanks to the "character limit," that is, the max number of characters (letters, numbers, line breaks, symbols, etc.) allowed in a single social media post. Lookin' at you, Twitter (RIP).
+
+Syntax
+: You're probably familiar with the term "syntax" as it is used in linguistics: rules that govern how words and phrases are arranged to create well-formed sentences. Similarly, in coding and programming languages, "syntax" refers to the arrangement of words, symbols, and other characters to create well-formed code. If, in your code, the syntax is correct, that piece of code will function and display correctly in your end result. If your syntax is incorrect, it usually will display incorrectly, function incorrectly, or not display or function at all. If you hear someone say "Check your syntax," they mean proofread your code. Sometimes all it takes is missing a space or a symbol in your code.
+
+: Fun fact: as humans, we can be pretty loosey goosey with syntax in some contexts, of course (take, for example, my frequent failure to correct sentences I end prepositions with), while in other situations we might be very strict about correct syntax. Similarly, some programming languages are very strict when it comes to syntax, while others are a little more lenient.
+
+Wrap/Wrapping
+: When we say to wrap something with something else, like "wrap _x_ with _y_" we mean to put one _y_ before and after _x_. It's like you've made an _x_ sandwich, and _y_ is the bread. For example, if I were to "wrap x in double asterisks," I would type `**x**`.
+
+# Markdown
+The [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/) from markdownguide.org is a great page to have up while you are transcribing and editing your Markdown files. It's a quick-reference list of all the ways you can format things in Markdown, from bold and italics to footnotes and images. Rather than duplicate the excellent guides that accompany the Cheat Sheet here, we provide links and some brief annotations for things commonly used in digital editions. 
+
+### Basic Markdown 
+
+[Paragraphs]
+Perhaps the most straightforward element in this list, paragraphs are formed simply by separating two lines of text with a blank line.
+
+```
+This is my first paragraph.
+
+This is my second paragraph.
+```
+
+[Bold text and Italicized text]
+Both asterisks (`*`) and underscores (`_`) can be used to make words or phrases bold and/or italicized. To italicize text, wrap it in single underscores (`_this_` makes _this_) or single asterisks (`*this*` makes *this*). To bold text, wrap it in _double_ underscores or _double_ asterisks (`**this**` makes **this**, and `__this__` makes __this__).
+
+**We recommend choosing one for bold, and the other for italics.** We find that this makes it easier to visually differentiate between them when editing or proofreading Markdown file. The author of this documentation always uses the underscore for italics (like `_this_`) and double asterisks for bold text (like `**this**`).
+
+[Headings](https://www.markdownguide.org/basic-syntax/#headings). 
+
+**[Line breaks](https://www.markdownguide.org/basic-syntax/#line-breaks)**
+Use paragraphs when you can. There will be cases—particularly with poetry—where you are, in fact, transcribing line breaks rather than paragraphs, and don't want the space that comes between paragraphs. 
+
+**[Tables](https://www.markdownguide.org/extended-syntax/#tables)**
+Tables are not the easiest to create and edit in Markdown. If you need to add a table, it's often easier to copy and paste an example table rather than create one from scratch.
+
+
+## Other useful things you can add to your GitHub pages site with Markdown
+
+### Table of Contents
+
+Github Pages will automatically display a Table of Contents to your file if you include the code `{:toc}`. The Table of Contents will link to headings in your document, so make sure to use proper hierarchy/nesting of headings.
+
+### Images
+
+### Tables
+
+### Superscript
+
+**Before you use this, read the documentation on footnotes.** In Markdown, creating a footnote (e.g. `This sentence has a relevant footnote.[ch1-ref1]`) automatically adds the superscript footnote number for you. You do not need to add the extra symbols described here.
+
+To make a character superscript, wrap it in caret symbols.
+
+# Edition Software
 
 In order to create a text based edition, we will lean on a few pieces of software to do the job. As stated above, this list is not all inclusive - as we work on editions we will add to this list and will consider software as needed for project features.
 
-### Datura
+## GitHub
+
+### What is Git, and what is GitHub?
+GitHub is based on [**git**](https://docs.github.com/en/get-started/using-git/about-git), a system that intelligently tracks changes in files. As people and teams collaborate on projects together, any earlier version of the project can be recovered at any time. Using the git system makes it easier to see a timeline of the changes, decisions, and progress you've made on your project. Looking back at a project's history using Git can tell you:
+
+    Which changes were made?
+    Who made the changes?
+    When were the changes made?
+    Why were changes needed?
+
+A project in Git is called a **repository**, and it is where all your project's files and folder will be stored. **GitHub** is a cloud-based hosting service that allows you to store your GitHub repository—with all of Git's version control and tracking features—on the web, either privately or publicly.
+
+When you begin a project that will be in the Recovery Hub framework, we will create a repository for your project on GitHub - more specifically, under the umbrella of the Recovery Hub's GitHub "Organization." You can see the list of repositories in the Recovery Hub GitHub Organization at https://github.com/recoveryhub/.
+
+
+### Why use GitHub?
+- Versioning - what does "versioning" mean, and what does it look like in practice/in GitHub? Maybe have a section called "Looking back at past versions of a file"
+
+### What is a repo?
+
+# Editing files on your computer vs. in your browser
+Differences: save (command+s or control+s, I think it's automatic in the browser)
+
+### "Saving" your changes - i.e. "Committing" your changes
+
+[ref1] Maksi, Mark. "No Git, No Problem: The Absolute Beginner's Guide to GitHub." 15 May 2024. Accessed 19 Jul 2024. <https://favtutor.com/articles/github-beginners-guide/>
+
+## Datura
 
 This software from the Center for Digital Research in the Humanities will be used to transform formats from one to the other and to compile metadata as needed.
 
 [https://github.com/CDRH/datura/](https://github.com/CDRH/datura/)
 
-### Jekyll
+## Jekyll
 
 Jekyll is a static site creation software that is integrated with GitHub. The normal use of this software is to use it to create a website previewing locally and then &quot;building&quot; the project into static HTML files that can be served from anywhere. When used on GitHub, the build happens automatically when a change is uploaded (this can sometimes take a minute or two).
 
 [https://jekyllrb.com/](https://jekyllrb.com/)
 
-[Add: GitHub?]
 
-## File Creation and Naming
+# File Creation and Naming
 
 When an edition is created a naming scheme will be defined. Depending on the complexity of the project there may be more to it than the following, but this serves as a basis.
 
@@ -178,11 +263,3 @@ Note the use of the shortname &quot;edition-one&quot; in the folder naming and t
       - 00001.002.jpg
 
 Note that output is reserved strictly for script generated formats - do not edit items in this folder as they will be overwritten next time the script is run. All human editable files should be added to /source
-
-## Workflow
-
-TBD, fill in with process of working on a textual edition from start to finish
-
-## Edition Creation
-
-[placeholder, this will be a separate doc]
