@@ -60,18 +60,21 @@ When a document is marked up with TEI (Simple or otherwise) it will be transform
 # Intro to Markdown
 Some basic terminology: 
 
-Characters
-: In computing terms, a character is any letter, number, space, punctuation mark, or symbol. A is a character; 9 is a character; ? is a character. "Character" became a familiar term for many denizens of social media thanks to the "character limit," that is, the max number of characters (letters, numbers, line breaks, symbols, etc.) allowed in a single social media post. Lookin' at you, Twitter (RIP).
+**Characters**
 
-Syntax
-: You're probably familiar with the term "syntax" as it is used in linguistics: rules that govern how words and phrases are arranged to create well-formed sentences. Similarly, in coding and programming languages, "syntax" refers to the arrangement of words, symbols, and other characters to create well-formed code. If, in your code, the syntax is correct, that piece of code will function and display correctly in your end result. If your syntax is incorrect, it usually will display incorrectly, function incorrectly, or not display or function at all. If you hear someone say "Check your syntax," they mean proofread your code. Sometimes all it takes is missing a space or a symbol in your code.
+In computing terms, a character is any letter, number, space, punctuation mark, or symbol. A is a character; 9 is a character; ? is a character. "Character" became a familiar term for many denizens of social media thanks to the "character limit," that is, the max number of characters (letters, numbers, line breaks, symbols, etc.) allowed in a single social media post. Lookin' at you, Twitter (RIP).
 
-: Fun fact: as humans, we can be pretty loosey goosey with syntax in some contexts, of course (take, for example, my frequent failure to correct sentences I end prepositions with), while in other situations we might be very strict about correct syntax. Similarly, some programming languages are very strict when it comes to syntax, while others are a little more lenient.
+**Syntax**
 
-Wrap/Wrapping
-: When we say to wrap something with something else, like "wrap _x_ with _y_" we mean to put one _y_ before and after _x_. It's like you've made an _x_ sandwich, and _y_ is the bread. For example, if I were to "wrap x in double asterisks," I would type `**x**`.
+You're probably familiar with the term "syntax" as it is used in linguistics: rules that govern how words and phrases are arranged to create well-formed sentences. Similarly, in coding and programming languages, "syntax" refers to the arrangement of words, symbols, and other characters to create well-formed code. If, in your code, the syntax is correct, that piece of code will function and display correctly in your end result. If your syntax is incorrect, it usually will display incorrectly, function incorrectly, or not display or function at all. If you hear someone say "Check your syntax," they mean proofread your code. Sometimes all it takes is missing a space or a symbol in your code.
 
-# Markdown
+Fun fact: as humans, we can be pretty loosey goosey with syntax in some contexts, of course (take, for example, my frequent failure to correct sentences I end prepositions with), while in other situations we might be very strict about correct syntax. Similarly, some programming languages are very strict when it comes to syntax, while others are a little more lenient.
+
+**Wrap/Wrapping**
+
+When we say to wrap something with something else, like "wrap _x_ with _y_" we mean to put one _y_ before and after _x_. It's like you've made an _x_ sandwich, and _y_ is the bread. For example, if I were to "wrap x in double asterisks," I would type `**x**`.
+
+## Markdown
 The [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/) from markdownguide.org is a great page to have up while you are transcribing and editing your Markdown files. It's a quick-reference list of all the ways you can format things in Markdown, from bold and italics to footnotes and images. Rather than duplicate the excellent guides that accompany the Cheat Sheet here, we provide links and some brief annotations for things commonly used in digital editions. 
 
 ### Basic Markdown 
@@ -85,7 +88,7 @@ This is my first paragraph.
 This is my second paragraph.
 ```
 
-[Bold text and Italicized text]
+**[Bold text and Italicized text]**
 Both asterisks (`*`) and underscores (`_`) can be used to make words or phrases bold and/or italicized. To italicize text, wrap it in single underscores (`_this_` makes _this_) or single asterisks (`*this*` makes *this*). To bold text, wrap it in _double_ underscores or _double_ asterisks (`**this**` makes **this**, and `__this__` makes __this__).
 
 **We recommend choosing one for bold, and the other for italics.** We find that this makes it easier to visually differentiate between them when editing or proofreading Markdown file. The author of this documentation always uses the underscore for italics (like `_this_`) and double asterisks for bold text (like `**this**`).
