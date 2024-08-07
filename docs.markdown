@@ -6,7 +6,8 @@ permalink: /docs
 
 **This page is a work in progress**
 
-* TOC {:toc}
+* TOC 
+{:toc}
 
 This documentation is for text-based digital editions. We can define what we mean by that a little more fully, but it mostly means that the project concerns itself with collecting, annotating, presenting, or analyzing textual documents (rather than, say, spreadsheets or databases).
 
